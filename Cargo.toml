@@ -1,0 +1,15 @@
+[package]
+authors = ["Name <address@example.org>"]
+name = "package"
+version = "0.1.0"
+
+[dependencies]
+
+
+[[bin]]
+name = "crate-cli"
+path = "src/main.rs"
+
+[lib]
+name = "crate"
+path = "src/lib.rs"
